@@ -12,7 +12,13 @@ function ServerList() {
 
       <ServerButton/>
       <ServerButton hasNotifications />
-      <ServerButton mentions={100} />
+      <ServerButton mentions={3} />
+      <ServerButton/>
+      <ServerButton/>
+      <ServerButton hasNotifications/>
+      <ServerButton/>
+      <ServerButton/>
+      <ServerButton mentions={1}/>
       <ServerButton/>
       <ServerButton/>
       <ServerButton hasNotifications/>
