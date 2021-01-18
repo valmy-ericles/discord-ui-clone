@@ -58,7 +58,7 @@ export const Button = styled.button`
   
     content: '${({ mentions }) => (mentions > 100) ? '100+' : (mentions > 0 ? mentions : '')}';
 
-    display: ${({ mentions }) => mentions > 0 ? 'inline' : 'none'}
+    display: ${({ mentions }) => mentions && mentions > 0 ? 'inline' : 'none'}
   }
 
   transition: border-radius 0.2s, background-color 0.2s;
