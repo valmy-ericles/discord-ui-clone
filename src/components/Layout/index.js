@@ -8,6 +8,7 @@ import ChannelInfo from '../ChannelInfo';
 import ChannelList  from '../ChannelList';
 import UserInfo from '../UserInfo';
 import UserList from '../UserList';
+import ChannelData from '../ChannelData';
 
 function Layout() {
   return (
@@ -17,7 +18,7 @@ function Layout() {
       <ChannelInfo/>
       <ChannelList/>
       <UserInfo/>
-      <div/>
+      <ChannelData/>
       <UserList/>
     </Grid>
   )
