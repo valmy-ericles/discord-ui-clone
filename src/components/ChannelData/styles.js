@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  background-color: var(--primary);
+  background-color: var(--primary);  
 `;
 
 export const Messages = styled.div`
@@ -17,7 +17,7 @@ export const Messages = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-height: calc(100vh - 46 - 68px);
+  max-height: calc(100vh - 46px - 68px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
@@ -59,8 +59,8 @@ export const Input = styled.input`
 
   ~ svg {
     position: relative;
-    top: -50%;
-    left: 10px;
+    top: -35px;
+    left: 14px;
     transition: 180ms ease-in-out;
   }
 
